@@ -52,7 +52,6 @@ JhiSortByDirective.ctorParameters = function () { return [
     { type: JhiSortDirective, decorators: [{ type: Host },] },
     { type: ElementRef, },
     { type: Renderer, },
-    { type: ConfigService, },
 ]; };
 JhiSortByDirective.propDecorators = {
     'jhiSortBy': [{ type: Input },],

@@ -60,7 +60,6 @@ JhiSortDirective.decorators = [
 JhiSortDirective.ctorParameters = function () { return [
     { type: ElementRef, },
     { type: Renderer, },
-    { type: ConfigService, },
 ]; };
 JhiSortDirective.propDecorators = {
     'predicate': [{ type: Input },],
